@@ -11,20 +11,24 @@
 </head>
 
 <body>
-<abbr title="L.o.t."></abbr>
+    <dfn>
+        <abbr title="Lots Of Tags">L.O.T.</abbr>
+    </dfn>
 <header>
-
     Dit zou een header moeten voorstellen
     <nav>
 
             <a href="http://www.google.com" target="-_blank">Dit kan een navigatie balk zijn</a>
     </nav>
+    <var>a</var>
 </header>
-
+    <hr>
+    Hier eindigt de header
 <address>
-
     Dit zou een adres moeten zijn
 </address>
+    Met de nadruk op <em>adres</em>
+    <br> of gewoon <i>anders</i> dan de rest van de tekst
 <article>
 
     <b>Dit is een artikel (in bold)</b>
@@ -33,10 +37,10 @@
     <bdi>
         - Dit zou aan de zijkant weergegevens moeten worden -
 
+        <br><br>
+        <sup>superscript</sup>
+        <sub>subscript</sub>
 
-
-    <hr>
-    En tussen deze twee zinnen zit een hr element
     <menu>
         <li>menu item 1</li>
         <li>menu item 2</li>
@@ -50,9 +54,39 @@
     </bdi>
 </aside>
 <main>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad autem corporis cupiditate dolor dolores, ducimus eos esse ipsum itaque magni maxime nihil obcaecati, officiis quam quod repudiandae rerum soluta tempore?
 
-        <br><br><cite>"ja man citaat" - Bryan Francisca 2017</cite>
+    <canvas id="canvas" width="300" height="150" moz-opaque>
+        An alternative text describing what your canvas displays.
+    </canvas>
+    <br><br>
+
+    <button name="knupke">
+        Click me
+    </button>
+    <br><br>
+    <label>Choose a browser from this list:
+        <input list="browsers" name="myBrowser" /></label>
+    <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Internet Explorer">
+        <option value="Opera">
+        <option value="Safari">
+        <option value="Microsoft Edge">
+    </datalist>
+    <br><br>
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" name="b" value="50" /> +
+        <input type="number" name="a" value="10" /> =
+        <output name="result">60</output>
+    </form>
+    <br><br>
+
+    <progress value="75" max="100">75%</progress>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad <wbr>autem corporis cupiditate dolor dolores, ducimus eos esse ipsum itaque magni maxime nihil obcaecati, officiis quam quod repudiandae rerum soluta tempore?
+
+        <br><br><cite> <q>ja man citaat</q> - Bryan Francisca 2017</cite>
 
     </p>
     <hgroup>
@@ -63,13 +97,46 @@
         <h5>header 5</h5>
         <h6>header 6</h6>
     </hgroup>
+    <blockquote>
+        <s>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus corporis culpa deleniti illum minus molestiae odit, quaerat quam, qui quibusdam quisquam rem veniam voluptas. Ab animi dignissimos eligendi illo nam?
+        </s>
+    </blockquote>
     <div>
-        Divider element
-        <code>
+        <strong> Divider element maar dan wel stronguh!</strong>
+        <span>
+            <code>
 
-            <br><br> Dit wordt als een stukje code weergegeven
-        </code>
+                <br><br> Dit wordt als een code weergegeven
+            </code>
+            <samp>
+
+                <br><br> Dit wordt ook als een stukje code weergegeven maar dit is een sample
+            </samp>
+            <data>
+                <br><br>
+                En dit als een stukje data op
+            </data>
+        </span>
+        <time datetime="2017-03-10T19:35">
+            10-03-2017 19:35
+            <br><br>
+        </time>
     </div>
+    <ruby>
+        漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+        字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+    </ruby>
+        <br><br>
+    <ruby>
+        <rb>旧</rb>
+        <rb>金</rb>
+        <rb>山</rb>
+        <rt>jiù</rt>
+        <rt>jīn</rt>
+        <rt>shān</rt>
+        <rtc> San Francisco</rtc>
+    </ruby>
     <ol>Elk item heeft een data waarde
         <li><data value="1">list item 1</data></li>
         <li><data value="2">list item 2</data></li>
@@ -79,8 +146,8 @@
     </ol>
     <p>
         <pre>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, commodi cumque delectus deserunt dolore eaque ex fugit ipsam molestias nesciunt numquam odit, perferendis qui quidem repellendus rerum sunt vero voluptatum.
-</pre>
+            <u>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, commodi cumque delectus deserunt dolore eaque ex fugit ipsam molestias nesciunt numquam odit, perferendis qui quidem repellendus rerum sunt vero voluptatum.</u>
+        </pre>
     </p>
     <ul>
         <li>list item 1</li>
@@ -90,6 +157,7 @@
         <li>list item 5</li>
     </ul>
     <section>
+        <mark>gemarkeerde tekst binnen een section</mark>
         <header>
             Dit is een header binnen een section
 
@@ -107,7 +175,13 @@
             Dit een caption/legend van de bovenstande figure
         </figcaptiontion>
     </figure>
+    <kbd>
+        Gebruikers input
+    </kbd>
 </main>
+
+    <hr>
+    hier begint de footer
 <footer>
 
     Dit is een footer
