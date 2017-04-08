@@ -1,35 +1,38 @@
- body {
+ html {
      background-color: #367aff;
  }
 
- div {
-     width: 800px;
-     height: 900px;
+ body{
+     width: 60%;
+     /*height: 900px;*/
      background-color: limegreen;
+     border: 5px solid black;
+     /*display: block;*/
      margin: 0 auto;
  }
 
  img {
-     height: 200px;
-     width: 300px;
-     border: 20px groove orange;
-     border-radius: 50%;
+     display: block;
      margin: 20px auto;
-
+     border-radius: 50%;
+     border: 20px groove yellow;
+     height: 300px;
+     width: 450px;
  }
 
  p {
      margin: 10px auto;
  }
 
-h1 {
+ h1 {
     font-family: Calibri;
+    margin-bottom: 10px;
 }
 
-#1 {
+ #header1 {
     color: blue;
 }
 
-#2 {
+ #header2 {
     color: red;
 }
