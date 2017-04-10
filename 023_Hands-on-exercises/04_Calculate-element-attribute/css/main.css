@@ -1,0 +1,9 @@
+/*specifity of 1*/
+a {
+  color: red;
+}
+
+/*specifity of 10*/
+[target] {
+  color: yellow;
+}

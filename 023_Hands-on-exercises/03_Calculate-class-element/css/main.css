@@ -1,0 +1,9 @@
+/*specifity of 100*/
+div {
+  color: red;
+}
+
+/*specifity of 10*/
+.class {
+  color: green;
+}

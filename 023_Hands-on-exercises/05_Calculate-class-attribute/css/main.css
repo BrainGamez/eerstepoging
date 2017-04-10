@@ -1,0 +1,10 @@
+
+/*specifity of 10*/
+[target] {
+  color: orange;
+}
+
+/*specifity of 10*/
+.class {
+  color: red;
+}
