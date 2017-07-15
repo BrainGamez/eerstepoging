@@ -1,0 +1,14 @@
+body {
+  color: grey;
+  /*width: 100%*/
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div {
+  width: 100%;
+  height: 100px;
+  background-image: url("../../000_img/pup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

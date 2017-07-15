@@ -1,0 +1,29 @@
+body, div {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  /*height: 1hv;*/
+  box-sizing: border-box;
+}
+
+div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  /*align-content: center;*/
+  align-items: center;
+
+  background-image: url(Paradise.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div {
+  border: 5px solid red;
+}
+
+h1 {
+  color: white;
+}

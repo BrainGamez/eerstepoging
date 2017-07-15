@@ -1,0 +1,17 @@
+
+body {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+ul {
+  width: 20%
+
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+article {
+  width: 80%;
+}

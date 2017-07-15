@@ -1,0 +1,9 @@
+.box01 {
+  width: 40%;
+  order: 2;
+}
+
+.box02 {
+  width: 60%;
+  order: 1;
+}

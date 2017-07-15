@@ -1,0 +1,34 @@
+.box01 {
+  background-color: red;
+  order: 1;
+}
+
+.box02 {
+  background-color: orange;
+  order: 2;
+}
+
+.box03 {
+  background-color: yellow;
+  order: 3;
+}
+
+.box04 {
+  background-color: green;
+  order: 4;
+}
+
+.box05 {
+  background-color: blue;
+  order: 5;
+}
+
+.box06 {
+  background-color: indigo;
+  order: 6;
+}
+
+.box07 {
+  background-color: violet;
+  order: 7;
+}
