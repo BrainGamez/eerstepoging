@@ -1,0 +1,26 @@
+html, body, div, footer {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+div {
+  width: 100px;
+  height: 1000px;
+  border: 4px dashed green;
+  background: yellow;
+}
+
+footer {
+  width: 100%;
+
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;s
+
+  border: 1px solid red;
+  background: tomato;
+}
