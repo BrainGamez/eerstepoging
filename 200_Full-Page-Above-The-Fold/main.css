@@ -1,0 +1,79 @@
+html, body, div, header, section, h1, p, nav, a, footer {
+  padding: 0;
+  border: 0px;
+  /*border: 2px dashed red;*/
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  width: 100%;
+  height: 100vh;
+
+  background-image: url(img/background-photo-mobile-devices.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-family: sans-serif;
+}
+
+section {
+  display: flex;
+  flex-flow: column nowrap;
+  /*justify-content: space-between;*/
+  align-items: center;
+}
+
+h1 {
+  position: relative;
+  bottom: 20px;
+}
+
+p {
+  font-size: small;
+
+  width: 50%;
+
+  padding: 10px;
+  /*margin: 20px;*/
+
+  text-align: center;
+}
+
+a {
+  font-size: small;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+
+  position: relative;
+  top: 20px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: black;
+  background-color: white;
+}
+
+a:active{
+  color: white;
+}
+
+a:focus {
+  color: white;
+}

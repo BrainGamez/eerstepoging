@@ -1,0 +1,18 @@
+html, body, div, img, span {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+div, img {
+  border: 1px dashed red;
+}
+
+img {
+  float: right;
+  padding: 10px;
+}
+
+span {
+  padding: 10px;
+}

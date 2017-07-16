@@ -1,0 +1,26 @@
+html, body, header, nav, main, footer {
+  padding: 0px;
+  margin: 0px;
+  border: 1px dashed red;
+  text-align: center;
+}
+
+header, nav, main, footer {
+  padding: 10px;
+}
+
+nav {
+  float: left;
+  height: 200px;
+  width: 25%;
+}
+
+main {
+  float: right;
+  height: 200px;
+  width: 65%
+}
+
+footer {
+  clear: both;
+}
