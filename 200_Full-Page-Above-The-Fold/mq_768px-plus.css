@@ -1,11 +1,7 @@
-div {
-  background-image: url(img/background-photo.jpg);
+#atf {
+  background-image: url("img/background-photo.jpg");
 }
 
-h2 {
-  padding-top: 20px;
-}
-
-h3 {
- padding-bottom: 20px;
+section {
+  height: 30vh;
 }
