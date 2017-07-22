@@ -1,0 +1,25 @@
+#atf {
+  background-image: url("../img/background-photo.jpg");
+}
+
+header {
+  display: flex;
+  /*flex-flow: row nowrap;*/
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo, #menu {
+  height: 2rem;
+  width: 200px;
+  margin: 10px;
+  /*border: 2px dashed red;*/
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+section {
+  height: 30vh;
+}
