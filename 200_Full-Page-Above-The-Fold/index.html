@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <title>Colibri Coding Bootcamp</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learn to program.">
     <title>Responsive Full Page Background Image</title>
     <!-- GOOGLE FONTS -->
     <!-- Kotta One -->
@@ -10,8 +12,16 @@
     <link href="https://fonts.googleapis.com/css?family=Cantarell:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/mcleod-reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mq_768px-plus.css" media="(min-width: 768px)">
-    <meta name="description" content="Learn to program.">
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#1b1464">
+    <meta name="theme-color" content="#ffffff">
 
 </head>
 <body>
@@ -67,20 +77,32 @@
   <header>
 
   <nav id="logo">
+      <a id="access" href="#">
       <svg class="hdr-svg-logo"><use xlink:href="#universal-access"></use></svg>
+      <h1>Colibri&nbsp;Code&nbsp;Bootcamp</h1>
+      </a>
   </nav>
+
   <nav id="menu">
+      <a id="home" href="#" title="Home">
       <svg class="hdr-svg-menu"><use xlink:href="#home"></use></svg>
+      </a>
+      <a id="case" href="#" title="Portfolio">
       <svg class="hdr-svg-menu"><use xlink:href="#briefcase"></use></svg>
+      </a>
+      <a id="pen" href="#" title="Edit">
       <svg class="hdr-svg-menu"><use xlink:href="#pencil"></use></svg>
+      </a>
+      <a id="gear" href="#" title="Settings">
       <svg class="hdr-svg-menu"><use xlink:href="#gear"></use></svg>
+      </a>
   </nav>
   </header>
 
   <div id="atf">
 
     <section>
-      <h1>&nbsp;RESPONSIVE&nbsp;FULL BACKGROUND&nbsp;IMAGE</h1>
+      <h1>RESPONSIVE&nbsp;FULL BACKGROUND IMAGE</h1>
 
       <div id="secure">
         <h2>SECURE YOUR FUTURE</h2>
@@ -88,12 +110,33 @@
       </div>
 
       <nav id="button">
-        <a href="#">BUILD YOUR FUTURE</a>
+        <a id="future" href="#">BUILD YOUR FUTURE</a>
       </nav>
 
     </section>
 
   </div>
+ <footer>
+    <nav id="mobile-menu">
+      <!-- HIER KOMT EEN MOBIEL MENU -->
+      <a id="mobile-home" href="#">
+        <svg class="hdr-svg-menu-mob"><use xlink:href="#home"></use></svg>
+        <h1 class="mobile-head">Home</h1>
+      </a>
+      <a id="mobile-case" href="#">
+        <svg class="hdr-svg-menu-mob"><use xlink:href="#briefcase"></use></svg>
+        <h1 class="mobile-head">Portfolio</h1>
+      </a>
+      <a id="mobile-pen" href="#">
+        <svg class="hdr-svg-menu-mob"><use xlink:href="#pencil"></use></svg>
+        <h1 class="mobile-head">Edit</h1>
+      </a>
+      <a id="mobile-gear" href="#">
+        <svg class="hdr-svg-menu-mob"><use xlink:href="#gear"></use></svg>
+        <h1 class="mobile-head">Settings</h1>
+      </a>
+    </nav>
+  </footer>
 
 </body>
 </html>

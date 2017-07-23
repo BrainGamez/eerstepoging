@@ -1,0 +1,110 @@
+html, body, header, section, div, svg, a, h1 {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+  /*border: 1px dashed green;*/
+
+  background-color: grey;
+}
+
+div {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  /*border: 1px dashed red;*/
+}
+
+#menu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+#settings {
+  margin-right: 5px;
+}
+
+a {
+  /*border: 1px dashed cyan;*/
+
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.b1 {
+  border: .2px solid transparent;
+}
+
+.b1:hover, .s1:hover {
+  border: .2px solid lightgrey;
+  background-color: white;
+  color: black;
+  fill: black;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+
+  /*border: 1px dashed green;*/
+  /*height: 30px;
+  width: 30px;*/
+  fill: white;
+
+  padding: 0;
+}
+
+.s1 {
+  /*margin: 0 10px;*/
+  height: 30px;
+  width: 50px;
+}
+
+.s2 {
+ fill: pink;
+ height: 300px;
+ width: 300px;
+}
+
+section {
+  height: 100%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  /*border: 1px dashed black;*/
+}
+
+#main-icon, #text {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 100px;
+  color: grey;
+}

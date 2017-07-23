@@ -1,51 +1,47 @@
-/*Color-scheme
-Bleu: rgba(5, 11, 62, 1)
-Grey: rgba(93, 124, 138, 1)
-lightbrown: rgba(163, 149, 130, 1)
-brown: rgba(114, 88, 66, 1)
-black: rgba(10, 14, 13, 1)*/
-
-html {
-  color: whitesmoke;
-  font-family: 'Cantarell', sans-serif;
-}
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 2.8rem;
-  background-color: rgba(0, 0, 0, 0.6);
-  /*background-color: black;*/
-  /*border: 2px dashed green;*/
-}
-
-.hdr-svg-logo:hover {
-  fill: rgba(114, 88, 66, 1);
-}
-
-.hdr-svg-menu:hover {
-  fill: rgba(163, 149, 130, 1);
-}
-
+/*MAIN BACKGROUND*/
 #atf {
   width: 100%;
   height: 100vh;
-  background-color: grey;
-  background-image: url("../img/background-photo-mobile-devices.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
   display: flex;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+/*HEADER*/
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2.8rem;
+
+  position: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.2rem;
+}
+
+#logo {
+  width: 100%;
+}
+
+.hdr-svg-logo {
+  display: none;
+}
+
+#menu {
+  display: none;
+}
+/*MIDDLE PART OF PAGE*/
 section {
   height: 80vh;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -53,59 +49,42 @@ section {
 }
 
 h1 {
- /*padding: 10px;*/
  font-weight: 400;
  font-size: 2rem;
+
  text-align: center;
 }
 
 h2 {
   font-weight: 700;
   font-size: small;
-  /*padding-top: 100px;*/
+
   text-align: center;
 }
 
 h3 {
  font-size: small;
- /*padding-bottom: 100px;*/
+
  text-align: center;
 }
 
-/*h1 {
-  position: relative;
-  bottom: 20px;
-}*/
-
-a {
+/*MAIN BUTTON*/
+#future {
   font-size: small;
-  text-decoration: none;
-  border: 1px solid whitesmoke;
-  border-radius: 5px;
-  padding: 5px;
 }
 
-a:link {
-  color: whitesmoke;
+/*MOBILE MENU UNDER THE FOLD*/
+#mobile-menu {
+  display: flex;
+  flex-flow: column nowrap;
 }
 
-a:visited {
-  color: whitesmoke;
+#mobile-home, #mobile-case, #mobile-pen, #mobile-gear {
+  display: flex;
+  align-items: center;
 }
 
-a:hover {
-  color: rgba(5, 11, 62, 1);
-  background-color: whitesmoke;
+.mobile-head {
+  display: inline-block;
+  font-size: 1.2rem;
 }
-
-a:active{
-  color: whitesmoke;
-}
-
-a:focus {
-  color: whitesmoke;
-}
-
-/*footer {
-  border: 2px dashed green;
-}*/

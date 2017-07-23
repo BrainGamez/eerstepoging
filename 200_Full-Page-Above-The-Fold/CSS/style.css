@@ -1,0 +1,80 @@
+/*Color-scheme
+Bleu: rgba(5, 11, 62, 1)
+Grey: rgba(93, 124, 138, 1)
+lightbrown: rgba(163, 149, 130, 1)
+brown: rgba(114, 88, 66, 1)
+black: rgba(10, 14, 13, 1)*/
+
+/*GENERAL*/
+html {
+  color: whitesmoke;
+  font-family: 'Cantarell', sans-serif;
+}
+
+/*MAIN BACKGROUND*/
+#atf {
+  background-color: grey;
+  background-image: url("../img/background-photo-mobile-devices.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*HEADER*/
+header {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#access:hover {
+  color: rgba(114, 88, 66, 1);
+}
+
+/*MAIN BUTTON*/
+#future {
+  text-decoration: none;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#future:link {
+  color: whitesmoke;
+}
+
+#future:visited {
+  color: whitesmoke;
+}
+
+#future:hover {
+  color: rgba(5, 11, 62, 1);
+  background-color: whitesmoke;
+}
+
+#future:active{
+  color: whitesmoke;
+}
+
+#future:focus {
+  color: whitesmoke;
+}
+
+/*MOBILE MENU UNDER THE FOLD*/
+.hdr-svg-menu-mob {
+  margin: 0 10px;
+}
+
+#mobile-home, #mobile-case, #mobile-pen, #mobile-gear {
+  background-color: rgba(93, 124, 138, 1);
+  border-top: 1px solid rgba(93, 124, 138, 1);
+  border-bottom: .2px solid whitesmoke;
+}
+
+#mobile-home:hover, #mobile-case:hover, #mobile-pen:hover, #mobile-gear:hover {
+  background-color: rgba(5, 11, 62, 1);
+  border-top: 1px solid rgba(114, 88, 66, 1);
+  border-bottom: .2px solid rgba(163, 149, 130, 1);
+}
+
+#mobile-gear, #mobile-gear:hover {
+  border-bottom: none;
+}
