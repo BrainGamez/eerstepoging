@@ -1,0 +1,68 @@
+html, body, main, section, svg, p {
+  border: 0;
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+/*body, main, section, svg, p {
+  border: 1px dashed brown;
+}*/
+
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: lightgrey;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+main {
+  height: 80%;
+  width: 80%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid lightsteelblue;
+  border-radius: 10px;
+}
+
+section {
+  display: flex;
+  height: 30%;
+  width: 95%;
+
+  padding: 0 40px 40px 0;
+}
+
+#s1 {
+  border-bottom: 1px solid lightsteelblue;
+}
+
+#s3 {
+  border-top: 1px solid lightsteelblue;
+}
+
+svg {
+  width: 20%;
+  fill: lightsteelblue;
+}
+
+p {
+  width: 80%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 100px;
+
+}

@@ -1,0 +1,35 @@
+html, body, svg {
+  border: 0;
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+/*body, svg {
+  border: 1px dashed blue;
+}*/
+
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  /*height: 43%;*/
+
+  width: 20rem;
+  height: 20rem;
+  border-radius: 100%;
+
+  border: .5px solid lightsteelblue;
+
+  box-shadow: 1px 2px 3px lightsteelblue;
+
+  fill: lightsteelblue;
+
+  padding: 20px;
+}

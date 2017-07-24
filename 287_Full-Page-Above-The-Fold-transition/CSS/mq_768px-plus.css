@@ -1,0 +1,62 @@
+/*MAIN BACKGROUND*/
+#atf {
+  background-image: url("../img/background-photo.jpg");
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*HEADER*/
+#logo, #menu {
+  height: 2rem;
+  width: 250px;
+  margin: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+#logo {
+  width: 250px;
+}
+
+.hdr-svg-logo {
+  display: inherit;
+}
+
+#home, #case, #pen, #gear {
+  padding: 0 10px;
+
+  transition-property: all;
+  transition-duration: .6s;
+  transition-timing-function: ease;
+}
+
+#home:hover, #case:hover, #pen:hover, #gear:hover {
+  background-color: rgba(93, 124, 138, 1);
+  border-radius: 5px;
+}
+
+#access {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*MIDDLE PART OF PAGE*/
+section {
+  height: 30vh;
+}
+
+/*MOBILE MENU UNDER THE FOLD*/
+#mobile-menu {
+  display: none;
+}
