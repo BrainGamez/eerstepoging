@@ -1,0 +1,342 @@
+html, body, main, header, h1, nav, button, div, h2 ,p {
+  border: 0;
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+/*main, h1, nav, button, div, h2 {
+  border: 1px dashed red;
+}*/
+
+body {
+  font-family: sans-serif;
+
+  font-size: 1vw;
+  color: #484848;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  height: 19%;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#top-header {
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 20px;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.2rem;
+
+  padding: 2px;
+}
+
+nav {
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 20px;
+
+}
+
+button {
+  text-align: center;
+  text-transform: uppercase;
+
+  font-size: 0.8rem;
+  font-weight: 200;
+  padding: 5px 15px;
+  margin: 10px;
+
+  cursor: pointer;
+}
+
+nav button {
+  background-color: #f6f6f6;
+}
+
+/*buttons omzetten naar links*/
+a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+#hbt {
+  text-align: center;
+  text-transform: uppercase;
+
+  font-size: 0.8rem;
+  font-weight: 200;
+  padding: 5px 15px;
+  margin: 10px;
+
+  background-color: #f6f6f6;
+  color: inherit;
+}
+
+
+/*MAIN IMAGE ATF*/
+#main-fam {
+  height: 81%;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(../Images/fam_blur.jpg);
+  background-size: cover;
+  /*background-position: center;*/
+  background-position: 0 -135px;
+  background-origin: border-box;
+}
+
+#middle-text {
+  width: 36.3%;
+  height: 40%;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+}
+
+#middle-header {
+  margin-bottom: 10px;
+  font-family: 'Alice', serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  /*text-align: top;*/
+}
+
+h2 {
+  font-weight: 400;
+  /*margin-top: 10px;*/
+}
+
+#middle-slogan {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 30px;
+}
+
+.test-button {
+  background-color: red;
+  color: white;
+  font-size: 1rem;
+  margin: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*ARTICLE*/
+
+/*article, section, h1, h2, p, div, ol, img, cite, a {
+  border: 1px dashed red;
+}*/
+
+article {
+  width: 70%;
+
+  /*display: flex;*/
+  /*flex-flow: row nowrap;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+}
+
+.art-header {
+  font-size: 1.5rem;
+  font-weight: 400;
+
+  text-transform: uppercase;
+  font-family: 'Alice', serif;
+  text-decoration: underline;
+
+  margin: 10px 0;
+}
+
+.sec-headers {
+  font-size: 1.5rem;
+  /*text-transform: uppercase;*/
+  font-family: 'Alice', serif;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #8e8e8e;
+  margin: 5px 0 10px 0;
+}
+
+.sec-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#list-foto {
+  display: flex;
+  /*flex-wrap: column nowrap;*/
+  justify-content: space-around;
+}
+
+#list-header {
+  width: 100%;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+ol {
+  line-height: 30px;
+  /*text-align: center;*/
+  color: #8e8e8e;
+  margin: 0 0;
+}
+
+cite {
+  font-size: .7rem;
+  font-style: normal;
+  text-decoration: none;
+
+  color: inherit;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+hr {
+  width: 85%;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  /*align-self: center;*/
+  /*margin: 0 10px;*/
+  border: .1px solid #8e8e8e;
+}
+
+table, tbody, tr, td {
+  /*border: 1px dashed blue;*/
+  border: .5px solid #999;
+  border-collapse: collapse;
+}
+
+table {
+
+}
+
+tr {
+  display: flex;
+}
+
+#row1 {
+  font-weight: bold;
+  background-color: silver;
+}
+
+#row2, #row4, #row6, #row8 {
+  background-color: #d0d0d0;
+}
+
+#column1 {
+  width: 7.5%;
+  font-weight: bold;
+}
+
+#column2 {
+  width: 40%;
+}
+
+#column3 {
+  width: 32.5%;
+}
+
+#column4 {
+  width: 20%;
+}
+
+td {
+  padding: 5px;
+}
+
+#bottom-cell {
+ width: 100%;
+}
+
+
+#bottom-fam {
+  height: 600px;
+  width: 100%;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(../Images/us_left_web_30.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*background-position: center;*/
+  /*background-position: 0 -135px;*/
+  /*background-origin: border-box;*/
+  /*border: 1px dashed red;*/
+}
+
+address {
+  height: 100px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  color: red;
+}
+
+#call {
+  font-family: 'Alice', serif;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+
+#number {
+  margin-top: 10px;
+  font-size: 2.2rem;
+  font-style: normal;
+
+}
+
+#tel {
+  color: red;  
+}
+
+footer {
+  text-align: center;
+  font-family: serif;
+}
+
+.ftr1 {
+  color: black;
+}
+.ftr2 {
+  color: blue;
+}
